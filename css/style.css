@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+a, a:hover{
+    list-style-type: none;
+}
+
+.topPart{
+    padding: 20px 0;
+    background: #FFAA17;
+}
+.email p{
+    font-size: 16px;
+    font-weight: 16px;
+    font-family: "Manrope" sans-serif;
+}
+.location p{
+    font-size: 16px;
+    font-weight: 16px;
+    font-family: "Manrope" sans-serif;
+}
+.socialIcon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(128, 128, 128, 0.322);
+}
+.socialIcon{
+    position: relative;
+}
+.socialIcon i{
+    font-size: 14px;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* font-family: "Manrope" sans-serif;
+font-family: "Poppins", sans-serif; */
