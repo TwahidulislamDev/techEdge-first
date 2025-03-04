@@ -62,22 +62,28 @@
     text-align: center;
   }
   .bannerText h1 {
-    font-size: 45px;
+    font-size: 35px;
   }
   .bannerText p {
-    font-size: 14px;
+    font-size: 12px;
   }
   .bannerImg img {
-    width: 400px;
-    height: 400px;
+    width: 380px;
+    height: 380px;
     margin-top: 5px;
   }
   .exprienceBatch {
     position: absolute;
-    top: 60%;
-    right: 10%;
-    width: 250px;
-    height: 135px;
+    top: 75%;
+    right: 15%;
+    width: 170px;
+    height: 100px;
+  }
+  .badgeImg h3 {
+    font-size: 20px;
+  }
+  .badgeImg h3 span {
+    font-size: 12px;
 }
   /* .banner  Section End  */
 }
