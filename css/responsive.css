@@ -36,14 +36,14 @@
     margin-top: 15px;
   }
   /* Header Section Start */
-  .navbar-nav{
+  .navbar-nav {
     padding-top: 10px;
-    background:#FFAA17 ;
+    background: #ffaa17;
     border-radius: 10px;
   }
   .navbar-collapse {
     margin-top: 10px;
-}
+  }
   .nav-item {
     text-align: center;
   }
@@ -54,4 +54,30 @@
   }
 
   /* Header Section End */
+  /* banner Section Start */
+  .bannerPart {
+    padding: 40px 0;
+  }
+  .bannerText {
+    text-align: center;
+  }
+  .bannerText h1 {
+    font-size: 45px;
+  }
+  .bannerText p {
+    font-size: 14px;
+  }
+  .bannerImg img {
+    width: 400px;
+    height: 400px;
+    margin-top: 5px;
+  }
+  .exprienceBatch {
+    position: absolute;
+    top: 60%;
+    right: 10%;
+    width: 250px;
+    height: 135px;
+}
+  /* .banner  Section End  */
 }
