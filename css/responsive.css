@@ -81,9 +81,22 @@
   }
   .badgeImg h3 {
     font-size: 20px;
+    color: #ff5405;
   }
   .badgeImg h3 span {
     font-size: 12px;
-}
+    color: #ff5405;
+  }
+  .teamPerson{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .teamPersonOne img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid black;
+  }
   /* .banner  Section End  */
 }
