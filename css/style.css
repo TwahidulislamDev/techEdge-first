@@ -1,48 +1,154 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-h1,h2,h3,h4,h5,h6,p{
-    margin: 0;
-    padding: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  /* line-height: 0.8; */
 }
-a, a:hover{
-    list-style-type: none;
+a,
+a:hover {
+  text-decoration: none;
+  display: inline-block;
 }
+/* Top Part Section Start */
+.topPart {
+  padding: 20px 0;
+  background: #ffaa17;
+}
+.email p {
+  font-size: 16px;
+  font-weight: 16px;
+  font-family: "Manrope" sans-serif;
+}
+.location p {
+  font-size: 16px;
+  font-weight: 16px;
+  font-family: "Manrope" sans-serif;
+}
+.socialIcon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(128, 128, 128, 0.322);
+}
+.socialIcon {
+  position: relative;
+}
+.socialIcon i {
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* Top Part Section End  */
+/* Header Section Start  */
+.nav-item {
+  padding: 0 10px;
+}
+.nav-link {
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Manrope" sans-serif;
+}
+.contactBtn {
+  padding: 13px 30px;
+  color: black;
+  background: #ffaa17;
+  border-radius: 20px;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Manrope" sans-serif;
+  cursor: pointer;
+}
+/* Header Section End   */
 
-.topPart{
-    padding: 20px 0;
-    background: #FFAA17;
-}
-.email p{
-    font-size: 16px;
-    font-weight: 16px;
-    font-family: "Manrope" sans-serif;
-}
-.location p{
-    font-size: 16px;
-    font-weight: 16px;
-    font-family: "Manrope" sans-serif;
-}
-.socialIcon{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background: rgba(128, 128, 128, 0.322);
-}
-.socialIcon{
-    position: relative;
-}
-.socialIcon i{
-    font-size: 14px;
-    font-weight: 600;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+/* Banner Section Start  */
 
+.bannerPart {
+  padding: 100px 0;
+}
+.bannerText h1 {
+  font-size: 65px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+.bannerText h1 span {
+  color: #ffaa17;
+}
+.bannerText p {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Manrope" sans-serif;
+  padding: 20px 0;
+}
+.bannerImg img {
+  width: 600px;
+  height: 600px;
+  margin-top: -80px;
+}
+.bannerImg{
+  position: relative;
+}
+.exprienceBatch {
+  position: absolute;
+  top: 60%;
+  right: 0;
+  width: 320px;
+  height: 150px;
+  background: whitesmoke;
+  -webkit-box-shadow: 5px 5px 10px -6px rgba(128, 128, 128, 0.529);
+  -moz-box-shadow: 5px 5px 10px -6px rgba(128, 128, 128, 0.464);
+  box-shadow: 5px 5px 10px -6px rgba(128, 128, 128, 0.449);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+.badgeImg{
+  position: relative;
+}
+.badgeImg img {
+  width: 50px;
+  height: 70px;
+  position: absolute;
+  top: 60%;
+  left: 20%;
+  transform: translate(-20%, 60%);
+}
+.exprienceBatch h3{
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Manrope" sans-serif;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.exprienceBatch h3 span{
+  font-size: 18px;
+  font-weight: 400;
+}
+/* Banner Section End   */
+
+/* Header Section Start  */
+
+/* Header Section End   */
+
+/* Header Section Start  */
+
+/* Header Section End   */
 
 /* font-family: "Manrope" sans-serif;
 font-family: "Poppins", sans-serif; */

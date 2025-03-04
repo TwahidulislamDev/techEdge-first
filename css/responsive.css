@@ -20,13 +20,13 @@
     width: 100%;
     flex-wrap: wrap;
   }
-  .info{
+  .info {
     width: 100%;
     flex-wrap: wrap;
     justify-content: center !important;
     align-items: center !important;
   }
-  .email{
+  .email {
     width: 100%;
     justify-content: center !important;
     padding-right: 0 !important;
@@ -35,4 +35,23 @@
     width: 100%;
     margin-top: 15px;
   }
+  /* Header Section Start */
+  .navbar-nav{
+    padding-top: 10px;
+    background:#FFAA17 ;
+    border-radius: 10px;
+  }
+  .navbar-collapse {
+    margin-top: 10px;
+}
+  .nav-item {
+    text-align: center;
+  }
+  .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Header Section End */
 }
