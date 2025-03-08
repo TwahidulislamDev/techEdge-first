@@ -72,6 +72,12 @@ a:hover {
   font-weight: 600;
   font-family: "Manrope" sans-serif;
   cursor: pointer;
+  transition: .5s;
+}
+.contactBtn:hover {
+  background: #ffff;
+  border: 1px solid #ffaa17;
+
 }
 /* Header Section End   */
 
@@ -172,9 +178,53 @@ a:hover {
 }
 /* advatismant Section End   */
 
-/* Header Section Start  */
+/* service Section Start  */
+.servicePart{
+  padding-bottom: 100px;
+}
+.serviceText h3{
+  font-size: 45px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+.ServiceCard{
+  padding-top: 20px;
+  border-top: 1px solid gray;
+  width: 100%;
+}
+.ServiceCard img{
+  width: 50px;
+  height: 50px;
+}
+.serviceBtn{
+  padding: 12px 30px;
+  background: transparent;
+  border: 1px solid #ffaa17;
+  border-radius: 20px ;
+  color: black;
+  font-family: "Manrope" sans-serif;
+  transition: .5s;
+}
+.serviceBtn:hover {
+  background: #ffaa17;
+}
+/* service Section End   */
 
-/* Header Section End   */
+/* service Section Start  */
+
+/* service Section End   */
+/* service Section Start  */
+
+/* service Section End   */
+/* service Section Start  */
+
+/* service Section End   */
+/* service Section Start  */
+
+/* service Section End   */
+/* service Section Start  */
+
+/* service Section End   */
 
 /* font-family: "Manrope" sans-serif;
 font-family: "Poppins", sans-serif; */

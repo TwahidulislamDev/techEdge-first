@@ -87,32 +87,57 @@
     font-size: 12px;
     color: #ff5405;
   }
-  .teamPerson{
+  .teamPerson {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .teamPersonOne img{
+  .teamPersonOne img {
     width: 40px;
     height: 40px;
     border-radius: 50%;
     border: 1px solid black;
   }
-  /* .banner  Section End  */
-
-  .advatismantPart{
+  /* banner  Section End  */
+  /* advatismant Section End */
+  .advatismantPart {
     padding: 10px;
     flex-wrap: wrap;
   }
-  .mobileFlex{
+  .mobileFlex {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
   }
-  .mobileFlex h4{
+  .mobileFlex h4 {
     font-size: 16px;
   }
+  /* advatismant Section End  */
 
+  /* service Section Start  */
+  .ServiceCard{
+    margin-left: 10px;
+  }
+  .serviceText h3 {
+    font-size: 30px;
+  }
+  /* service Section End   */
+
+  /* service Section Start  */
+
+  /* service Section End   */
+
+  /* service Section Start  */
+
+  /* service Section End   */
+
+  /* service Section Start  */
+
+  /* service Section End   */
+
+  /* service Section Start  */
+
+  /* service Section End   */
 }
