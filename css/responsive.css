@@ -99,4 +99,20 @@
     border: 1px solid black;
   }
   /* .banner  Section End  */
+
+  .advatismantPart{
+    padding: 10px;
+    flex-wrap: wrap;
+  }
+  .mobileFlex{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  .mobileFlex h4{
+    font-size: 16px;
+  }
+
 }

@@ -122,7 +122,6 @@ a:hover {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  
 }
 .badgeImg{
   width: 100%;
@@ -156,9 +155,22 @@ a:hover {
 }
 /* Banner Section End   */
 
-/* Header Section Start  */
-
-/* Header Section End   */
+/* advatismant Section Start  */
+.advatismantPart{
+  padding: 20px 0;
+  background: black;
+}
+.mobileFlex h4{
+  font-size: 35px;
+  font-weight:200;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.mobileFlex img{
+  width: 40px;
+  height: 40px;
+}
+/* advatismant Section End   */
 
 /* Header Section Start  */
 
