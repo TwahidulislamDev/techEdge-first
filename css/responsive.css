@@ -117,7 +117,10 @@
   /* advatismant Section End  */
 
   /* service Section Start  */
-  .ServiceCard{
+  .servicePart {
+    padding-bottom: 50px;
+  }
+  .ServiceCard {
     margin-left: 10px;
   }
   .serviceText h3 {
@@ -125,9 +128,43 @@
   }
   /* service Section End   */
 
-  /* service Section Start  */
-
-  /* service Section End   */
+  /* Power Section Start  */
+  .serviceText h3 {
+    padding-left: 10px;
+  }
+  .serviceText p {
+    font-size: 12px;
+    padding-left: 10px;
+    padding-bottom: 30px !important;
+  }
+  .counterUp {
+    margin-left: 10px;
+    margin-bottom: 30px;
+  }
+  .powerImg {
+    width: 100%;
+  }
+  /* Power Section End   */
+  .powerImg img {
+    width: 100%;
+  }
+  .poweBadge {
+    width: 170px;
+    height: 90px;
+    background: #ffaa17;
+    border-radius: 20px;
+    position: absolute;
+    bottom: -40px;
+    right: 40px;
+  }
+  .poweBadge i {
+    font-size: 30px;
+  }
+  .poweBadge p {
+    font-size: 14px;
+  }
+  
+  /* Power Section End   */
 
   /* service Section Start  */
 

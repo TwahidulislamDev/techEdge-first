@@ -209,11 +209,57 @@ a:hover {
   background: #ffaa17;
 }
 /* service Section End   */
+.serviceText p{
+  font-size: 14px;
+  font-weight: 400;
+  color: gray;
+  font-family: "Manrope" sans-serif;
 
+}
 /* service Section Start  */
 
-/* service Section End   */
-/* service Section Start  */
+/* Power Section End   */
+.powerPart{
+  padding-bottom: 100px;
+}
+.clintReview{
+  width: 33%;
+}
+.clintReview h4{
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+.clintReview p{
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Manrope" sans-serif;
+  color: #7A7A7A;
+}
+.powerImg img{
+  border-radius: 20px;
+}
+.powerRightPart{
+  position: relative;
+}
+.poweBadge{
+  width: 250px;
+  height: 120px;
+  background: #ffaa17;
+  border-radius: 20px;
+  position: absolute;
+  bottom: -60px;
+  right: -10px;
+}
+.poweBadge i{
+  font-size: 50px;
+}
+.poweBadge p{
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Manrope" sans-serif;
+}
+/* Power Section Start  */
 
 /* service Section End   */
 /* service Section Start  */
