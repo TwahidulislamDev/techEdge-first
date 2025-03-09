@@ -18,8 +18,9 @@ $(".serviceSlider").slick({
   ]
 });
 // Service Card End 
-
+// Power Section Start 
 $('.counter').counterUp({
   delay: 10,
   time: 1000
 });
+// Power Section End 

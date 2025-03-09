@@ -101,8 +101,11 @@
   /* banner  Section End  */
   /* advatismant Section End */
   .advatismantPart {
-    padding: 10px;
+    /* padding: 10px; */
+    width: 100%;
     flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 10px;
   }
   .mobileFlex {
     width: 100%;
@@ -118,6 +121,7 @@
 
   /* service Section Start  */
   .servicePart {
+    padding: 0 10px;
     padding-bottom: 50px;
   }
   .ServiceCard {
