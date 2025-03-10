@@ -11,16 +11,26 @@ $(".serviceSlider").slick({
       settings: {
         arrows: false,
         centerMode: true,
-        centerPadding: '10px',
-        slidesToShow: 1
-      }
+        centerPadding: "10px",
+        slidesToShow: 1,
+      },
     },
-  ]
+  ],
 });
-// Service Card End 
-// Power Section Start 
-$('.counter').counterUp({
+// Service Card End
+// Power Section Start
+$(".counter").counterUp({
   delay: 20,
-  time: 1000
+  time: 1000,
 });
-// Power Section End 
+// Power Section End
+
+// $(window).scroll(function () {
+//   var scrolling = $(this).scrollTop();
+
+//   if (scrolling > 200) {
+//     $(".navbar").addClass("sticky_header");
+//   } else {
+//     $(".navbar").removeClass("sticky_header");
+//   }
+// });

@@ -167,18 +167,39 @@
   .poweBadge p {
     font-size: 14px;
   }
-  
   /* Power Section End   */
 
   /* service Section Start  */
-
+  .teampart {
+    padding: 40px 0;
+  }
+  .teamMember {
+    width: 100%;
+  }
+  .teamDetails {
+    padding: 0 15px;
+  }
+  .leftText h4 {
+    font-size: 25px;
+  }
+  .leftText p {
+    font-size: 12px;
+  }
+  .middleText p {
+    font-size: 16px;
+  }
+  .leftText{
+    margin-bottom: 20px;
+  }
   /* service Section End   */
 
   /* service Section Start  */
 
   /* service Section End   */
 
-  /* service Section Start  */
-
-  /* service Section End   */
+  /* backToTop Section Start  */
+  .backToTop {
+    font-size: 30px;
+  }
+  /* backToTop Section End   */
 }
